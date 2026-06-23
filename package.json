@@ -9,8 +9,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@drift-labs/sdk": "^2.112.0-beta.1",
-    "@drift-labs/vaults-sdk": "^0.4.33"
+    "@velocity-exchange/sdk": "^2.112.0-beta.1",
+    "@velocity-exchange/vaults-sdk": "^0.4.33"
   },
   "scripts": {
     "dev": "bun index.ts",
