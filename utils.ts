@@ -4,7 +4,7 @@ import {
 	Wallet,
 	convertToNumber,
 	loadKeypair,
-} from '@drift-labs/sdk';
+} from '@velocity-exchange/sdk';
 import { Keypair } from '@solana/web3.js';
 
 export function getWallet(privateKeyOrFilepath: string): [Keypair, Wallet] {

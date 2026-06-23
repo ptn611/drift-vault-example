@@ -19,7 +19,7 @@ import {
 	convertToNumber,
 	getLimitOrderParams,
 	getOrderParams,
-} from '@drift-labs/sdk';
+} from '@velocity-exchange/sdk';
 
 import { VAULT_PROGRAM_ID, Vault, VaultClient } from '../drift-vaults/ts/sdk/src';
 import { IDL } from '../drift-vaults/ts/sdk/src/types/drift_vaults';

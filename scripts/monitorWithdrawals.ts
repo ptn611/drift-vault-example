@@ -24,10 +24,10 @@ import {
 	getLimitOrderParams,
 	getOrderParams,
 	getUserAccountPublicKey,
-} from '@drift-labs/sdk';
+} from '@velocity-exchange/sdk';
 
-import { VAULT_PROGRAM_ID, Vault, VaultClient, VaultDepositor } from '@drift-labs/vaults-sdk';
-import { IDL } from '@drift-labs/vaults-sdk';
+import { VAULT_PROGRAM_ID, Vault, VaultClient, VaultDepositor } from '@velocity-exchange/vaults-sdk';
+import { IDL } from '@velocity-exchange/vaults-sdk';
 
 import dotenv from 'dotenv';
 dotenv.config();
@@ -153,7 +153,7 @@ async function runMonitor(firstRun: boolean = false) {
 
 
 	// check for any depositors that make the vault liquidatable
-	// https://github.com/drift-labs/drift-vaults/wiki#liquidations
+	// https://github.com/velocity-exchange/drift-vaults/wiki#liquidations
 	for (const depositor of vaultDepositors) {
 		const vd = depositor.account;
 		const liquidatable = isVaultLiquidatable(
