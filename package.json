@@ -9,8 +9,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@velocity-exchange/sdk": "^2.112.0-beta.1",
-    "@velocity-exchange/vaults-sdk": "^0.4.33"
+    "@velocity-exchange/sdk": "file:../protocol-v2/sdk",
+    "@velocity-exchange/vaults-sdk": "file:../drift-vaults/ts/sdk"
   },
   "scripts": {
     "dev": "bun index.ts",
