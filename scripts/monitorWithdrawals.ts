@@ -153,7 +153,7 @@ async function runMonitor(firstRun: boolean = false) {
 
 
 	// check for any depositors that make the vault liquidatable
-	// https://github.com/velocity-exchange/drift-vaults/wiki#liquidations
+	// https://github.com/ptn611/drift-vaults/wiki#liquidations
 	for (const depositor of vaultDepositors) {
 		const vd = depositor.account;
 		const liquidatable = isVaultLiquidatable(

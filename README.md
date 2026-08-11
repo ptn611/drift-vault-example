@@ -24,7 +24,7 @@ This vault strategy is a simple market making strategy that quotes around the cu
 
 1) install dependencies
     ```
-    git clone git@github.com:velocity-exchange/drift-vault-example.git
+    git clone git@github.com:ptn611/drift-vault-example.git
     cd drift-vault-example
     bun install
     ```
